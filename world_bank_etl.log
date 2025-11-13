@@ -1,0 +1,12 @@
+2025-11-13 15:59:22,698 : INFO : Extract : World Bank API extraction commenced
+2025-11-13 15:59:42,654 : INFO : Extract : All records has been extracted successfully
+2025-11-13 15:59:42,654 : INFO : Extract : 9310 records extracted
+2025-11-13 15:59:42,657 : INFO : Transform : Data transformation process ongoing......
+2025-11-13 15:59:42,722 : INFO : Transform : Data normalization process complete
+2025-11-13 15:59:42,762 : INFO : Transform : Data normalization process complete
+2025-11-13 15:59:42,764 : INFO : Transform : Data transformation process complete
+2025-11-13 15:59:42,764 : INFO : Merge : Dataset merging process ongoing......
+2025-11-13 15:59:42,765 : INFO : Merge : Ingesting data/all_countries.csv file......
+2025-11-13 15:59:42,783 : INFO : Merge : All dataset merged successfully: (9310, 15)
+2025-11-13 15:59:42,970 : INFO : Load : World Bank API response data saved as data/research_spend.json
+2025-11-13 15:59:43,061 : INFO : Load : Final dataset saved as data/research_spend.csv
