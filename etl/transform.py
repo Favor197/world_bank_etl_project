@@ -9,11 +9,10 @@ def normalize(df: pd.DataFrame, col: str):
     """
     Normalize nested columns
     """
-    #for col in cols:
-        #flatten nested columns
+    #flatten nested columns
     df_norm = pd.json_normalize(df[col]).add_prefix(f'{col}_')
 
-        #drop nested columns and join flat columns
+    #drop nested columns and join flat columns
     df_clean = df.drop(columns=[col]).join(df_norm)
     
     log.info('Data normalization process complete')
